@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class MainMenu {
 
-    private static MenuOptions menuOptions;
+    private static OptionsMenu optionsMenu;
     private static Scanner input;
 
     public static void main(String[] args) {
         input = new Scanner(System.in);
-        menuOptions = new MenuOptions();
+        optionsMenu = new OptionsMenu();
         //menuOptions.menuChoice(input);
     }
 
